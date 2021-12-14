@@ -1,0 +1,42 @@
+﻿indicator,lbl,weight,score,parent,parentWeight
+Ecosystem Vitality ,Ecosystem <br> Vitality ,1,64,,1
+Water quantity ,Water<br> quantity ,0.25,81,Ecosystem Vitality ,1
+Water quality ,Water<br> quality ,0.25,49,Ecosystem Vitality ,1
+Drainage-basin condition ,Basin <br> condition ,0.25,54,Ecosystem Vitality ,1
+Biodiversity ,Biodiversity ,0.25,76,Ecosystem Vitality ,1
+Deviation from natural flow regime ,Deviation from <br> natural flow,0.5,66,Water quantity ,0.25
+Groundwater storage depletion ,Groundwater <br> storage depletion ,0.5,100,Water quantity ,0.25
+Flow connectivity,Flow<br> connectivity,0.33,53,Drainage-basin condition ,0.25
+Land cover naturalness ,Land cover <br> naturalness ,0.34,57,Drainage-basin condition ,0.25
+Bank modification ,Bank<br> modification ,0.33,51,Drainage-basin condition ,0.25
+Species of concern,Species<br> of concern,0.5,64,Biodiversity ,0.25
+Invasive species,Invasive<br> species,0.5,91,Biodiversity ,0.25
+Ecosystem Services,Ecosystem <br> Services,1,86,,1
+Provisioning,Provisioning,0.503,95,Ecosystem Services,1
+Regulating,Regulating,0.392,78,Ecosystem Services,1
+Cultural,Cultural,0.105,79,Ecosystem Services,1
+Water supply reliability,Water supply <br> reliability,0.823,95,Provisioning,0.503
+Biomass ,Biomass ,0.177,,Provisioning,0.503
+Sediment regulation,Sediment<br>regulation,0.241,86,Regulating,0.392
+Water quality regulation,Water quality <br>regulation,0.382,68,Regulating,0.392
+Flood regulation,Flood<br> regulation,0.293,80,Regulating,0.392
+Disease regulation,Disease <br> regulation,0.084,100,Regulating,0.392
+Conservation & cultural heritage,Conservation ,0.862,79,Cultural,0.105
+Recreation,Recreation,0.138,77,Cultural,0.105
+Governance & Stakeholders,Governance <br>& Stakeholders,1,63,,1
+Enabling Environment,Enabling<br>Environment,0.411,64,Governance & Stakeholders,1
+Stakeholder Engagement,Stakeholder<br>Engagement,0.285,60,Governance & Stakeholders,1
+Vision & Adaptive Governance,Adaptive<br>Governance,0.169,64,Governance & Stakeholders,1
+Effectiveness,Effectiveness,0.135,62,Governance & Stakeholders,1
+Water resource management,Water resource<br>management,0.351,68,Enabling Environment,0.411
+Rights to resource use,Rights to<br>resource use,0.234,61,Enabling Environment,0.411
+Incentives & regulations,Incentives <br>& regulations,0.191,67,Enabling Environment,0.411
+Financial capacity,Financial<br>capacity,0.139,65,Enabling Environment,0.411
+Technical capacity,Technical<br>capacity,0.085,54,Enabling Environment,0.411
+Information access,Information<br>access,0.664,60,Stakeholder Engagement,0.285
+Engagement in decision-making,Engagement,0.336,61,Stakeholder Engagement,0.285
+Strategic planning,Strategic<br>planning,0.689,63,Vision & Adaptive Governance,0.169
+Monitoring mechanisms,Monitoring<br>mechanisms,0.311,67,Vision & Adaptive Governance,0.169
+Enforcement & compliance,Enforcement <br>& compliance,0.501,63,Effectiveness,0.135
+Distribution of benefits,Distribution<br>of benefits,0.354,61,Effectiveness,0.135
+Conflict,Conflict,0.145,58,Effectiveness,0.135
